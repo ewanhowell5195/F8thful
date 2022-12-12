@@ -1,0 +1,1 @@
+{"textureSize":[64,32],"models":[{"part":"mouth","id":"mouth","invertAxis":"xy","translate":[0,-24,0],"boxes":[{"coordinates":[-0.5,1.5,-3.5,2,2,2],"uvNorth":[33,9,34,10],"uvEast":[32,9,33,10],"uvSouth":[35,9,36,10],"uvWest":[34,9,35,10],"uvUp":[34,9,33,8],"uvDown":[35,8,34,9]}]}]}

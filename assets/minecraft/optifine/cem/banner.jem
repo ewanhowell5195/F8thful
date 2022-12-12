@@ -1,0 +1,1 @@
+{"textureSize":[64,64],"models":[{"part":"slate","id":"slate","invertAxis":"xy","translate":[0,-44,0],"boxes":[{"coordinates":[-10,4,-3,20,40,2],"uvNorth":[1,1,21,41],"uvEast":[0,1,1,41],"uvSouth":[22,1,42,41],"uvWest":[21,1,22,41],"uvUp":[21,1,1,0],"uvDown":[41,0,21,1]}]}]}
