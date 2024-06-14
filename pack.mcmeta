@@ -1,1 +1,28 @@
-{"pack":{"description":"F8thful\n§cBy Ewan Howell","pack_format":24,"supported_formats":{"min_inclusive":16,"max_inclusive":24}},"overlays":{"entries":[{"directory":"16-19","formats":{"min_inclusive":16,"max_inclusive":19}},{"directory":"16-21","formats":{"min_inclusive":16,"max_inclusive":21}}]}}
+{
+  "pack": {
+    "description": "F8thful\n§cBy Ewan Howell",
+    "pack_format": 34,
+    "supported_formats": {
+      "min_inclusive": 16,
+      "max_inclusive": 34
+    }
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "16-19",
+        "formats": {
+          "min_inclusive": 16,
+          "max_inclusive": 19
+        }
+      },
+      {
+        "directory": "16-21",
+        "formats": {
+          "min_inclusive": 16,
+          "max_inclusive": 21
+        }
+      }
+    ]
+  }
+}
