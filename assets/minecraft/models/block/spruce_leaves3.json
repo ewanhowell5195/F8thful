@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/leaves","textures":{"all":"minecraft:block/spruce_leaves3"}}
+{"parent":"block/leaves","textures":{"all":"block/spruce_leaves3"}}

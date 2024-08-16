@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/template_fence_gate_wall_open","textures":{"particle":"minecraft:block/bamboo_planks","texture":"minecraft:block/bamboo_planks"}}
+{"parent":"block/template_fence_gate_wall_open","textures":{"particle":"block/bamboo_planks","texture":"block/bamboo_planks"}}
