@@ -1,1 +1,1 @@
-{"textureSize":[64,32],"models":[{"part":"head","id":"head","invertAxis":"xy","translate":[0,-12,6],"boxes":[{"coordinates":[-4,8,-14,8,8,8],"textureOffset":[0,0]},{"coordinates":[-3,8,-16,6,4,2],"textureOffset":[0,26]}]}]}
+{"textureSize":[64,64],"models":[{"part":"head","id":"head","invertAxis":"xy","translate":[0,-12,6],"boxes":[{"coordinates":[-4,8,-14,8,8,8],"textureOffset":[0,0]},{"coordinates":[-3,8,-16,6,4,2],"textureOffset":[0,26]}]}]}
