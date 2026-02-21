@@ -1,1 +1,0 @@
-{"credit":"By Ewan Howell","texture":"tadpole.png","textureSize":[16,8],"models":[{"part":"body","id":"body","invertAxis":"xy","translate":[0,-23,-1.5],"boxes":[{"coordinates":[-2,0,-2.5,4,2,4],"textureOffset":[0,0]}]},{"part":"tail","id":"tail","invertAxis":"xy","translate":[0,-1,-1.5],"boxes":[{"coordinates":[0,0,1.5,0,2,8],"textureOffset":[0,-2]}]}]}
