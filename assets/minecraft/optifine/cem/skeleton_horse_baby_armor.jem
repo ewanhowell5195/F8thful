@@ -1,0 +1,103 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -22, 9],
+      "boxes": [
+        {"coordinates": [-3, 28, -11, 6, 6, 6], "textureOffset": [0, 0], "sizeAdd": 0.1}
+      ]
+    },
+    {
+      "part": "mouth",
+      "id": "mouth",
+      "invertAxis": "xy",
+      "translate": [0, -22, 9],
+      "boxes": [
+        {"coordinates": [-2, 28, -17, 4, 6, 6], "textureOffset": [24, 0], "sizeAdd": 0.1}
+      ]
+    },
+    {
+      "part": "left_ear",
+      "id": "left_ear",
+      "invertAxis": "xy",
+      "translate": [0, -22, 9.01],
+      "boxes": [
+        {
+          "coordinates": [-2.55, 34, -7.01, 2, 2, 2],
+          "uvNorth": [20, 17, 22, 20],
+          "uvEast": [19, 17, 20, 20],
+          "uvSouth": [23, 17, 25, 20],
+          "uvWest": [22, 17, 23, 20],
+          "uvUp": [22, 17, 20, 16],
+          "uvDown": [24, 16, 22, 17]
+        }
+      ]
+    },
+    {
+      "part": "right_ear",
+      "id": "right_ear",
+      "invertAxis": "xy",
+      "translate": [0, -22, 9.01],
+      "boxes": [
+        {
+          "coordinates": [0.55, 34, -7.01, 2, 2, 2],
+          "uvNorth": [20, 17, 22, 20],
+          "uvEast": [19, 17, 20, 20],
+          "uvSouth": [23, 17, 25, 20],
+          "uvWest": [22, 17, 23, 20],
+          "uvUp": [22, 17, 20, 16],
+          "uvDown": [24, 16, 22, 17]
+        }
+      ]
+    },
+    {
+      "part": "neck",
+      "id": "neck",
+      "invertAxis": "xy",
+      "translate": [0, -22, 9],
+      "boxes": [
+        {
+          "coordinates": [-1.95, 16, -11, 4, 12, 6],
+          "uvNorth": [7, 42, 11, 54],
+          "uvEast": [1, 42, 7, 54],
+          "uvSouth": [18, 42, 22, 54],
+          "uvWest": [11, 42, 17, 54],
+          "uvUp": [11, 41, 7, 35],
+          "uvDown": [15, 35, 11, 42]
+        }
+      ]
+    },
+    {
+      "part": "mane",
+      "id": "mane",
+      "invertAxis": "xy",
+      "translate": [0, -22, 9.01],
+      "boxes": [
+        {"coordinates": [-1, 18, -5, 2, 16, 2], "textureOffset": [56, 36], "sizeAdd": 0.1},
+        {"coordinates": [-1, 15.8, -5, 2, 2, 2], "textureOffset": [56, 36], "sizeAdd": 0.1}
+      ]
+    },
+    {
+      "part": "tail",
+      "id": "tail",
+      "invertAxis": "xy",
+      "translate": [0, -21, -11],
+      "boxes": [
+        {
+          "coordinates": [-1.5, 7, 11, 2, 14, 4],
+          "uvNorth": [46, 40, 49, 54],
+          "uvEast": [42, 40, 46, 54],
+          "uvSouth": [53, 40, 56, 54],
+          "uvWest": [49, 40, 53, 54],
+          "uvUp": [49, 40, 46, 36],
+          "uvDown": [52, 36, 49, 40],
+          "sizeAdd": 0.1
+        }
+      ]
+    }
+  ]
+}
