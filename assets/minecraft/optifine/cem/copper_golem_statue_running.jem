@@ -1,0 +1,120 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [-0.364, -9.85, 1.8],
+      "boxes": [
+        {"coordinates": [-3.636, 9.95, -6.8, 8, 5, 10], "textureOffset": [0, 0]},
+        {"coordinates": [-3.636, 14.95, -6.8, 8, 1, 10], "textureOffset": [0, 0]},
+        {"coordinates": [-0.616, 7.95, -7.8, 2, 4, 2], "textureOffset": [56, 5]},
+        {"coordinates": [-0.616, 15.95, -2.8, 2, 4, 2], "textureOffset": [37, 8], "sizeAdd": -0.015},
+        {"coordinates": [-1.636, 19.95, -3.8, 4, 4, 4], "textureOffset": [37, 0], "sizeAdd": -0.015}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [-1.064, -4.25, 0],
+      "submodels": [
+        {
+          "id": "body_rotation",
+          "invertAxis": "xy",
+          "translate": [-0.036, 4.15, 0.7],
+          "rotate": [-6.8984, 0.3667, -4.4633],
+          "boxes": [
+            {"coordinates": [-3.98, 0.116, -3.5, 8, 6, 6], "textureOffset": [0, 15]}
+          ]
+        }
+      ]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "translate": [2.936, -10.25, 0],
+      "submodels": [
+        {
+          "id": "left_arm_rotation",
+          "invertAxis": "xy",
+          "translate": [-3.668, 10.25, 0],
+          "rotate": [49.93327, 3.06532, -2.57258],
+          "boxes": [
+            {
+              "coordinates": [-2.032, -8.9, -2, 2, 10, 4],
+              "uvNorth": [54, 20, 57, 30],
+              "uvEast": [50, 20, 54, 30],
+              "uvSouth": [61, 20, 64, 30],
+              "uvWest": [57, 20, 61, 30],
+              "uvUp": [57, 20, 54, 16],
+              "uvDown": [60, 16, 57, 20]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-5.064, -10.25, 0],
+      "submodels": [
+        {
+          "id": "right_arm_rotation",
+          "invertAxis": "xy",
+          "translate": [4.364, 10.498, -1.62],
+          "rotate": [-57.50204, 0, 0],
+          "boxes": [
+            {
+              "coordinates": [0.052, -8.89, -2.036, 2, 10, 4],
+              "uvNorth": [40, 20, 43, 30],
+              "uvEast": [36, 20, 40, 30],
+              "uvSouth": [47, 20, 50, 30],
+              "uvWest": [43, 20, 47, 30],
+              "uvUp": [43, 20, 40, 16],
+              "uvDown": [46, 16, 43, 20]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [0.936, -4.25, 0],
+      "submodels": [
+        {
+          "id": "left_leg_rotation",
+          "invertAxis": "xy",
+          "translate": [-1.936, 4.25, 0],
+          "rotate": [-45.0001, 0, 0],
+          "boxes": [
+            {"coordinates": [-1.912, -3.9, -2, 4, 4, 4], "textureOffset": [16, 27]}
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-3.064, -4.25, 0],
+      "submodels": [
+        {
+          "id": "right_leg_rotation",
+          "invertAxis": "xy",
+          "translate": [2.016, 4.25, -0.9],
+          "rotate": [50.00202, 0, 0],
+          "boxes": [
+            {"coordinates": [-2.144, -3.9, -1.09, 4, 4, 4], "textureOffset": [0, 27]}
+          ]
+        }
+      ]
+    }
+  ]
+}

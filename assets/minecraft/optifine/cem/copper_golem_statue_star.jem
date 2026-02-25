@@ -1,0 +1,112 @@
+{
+  "credit": "By Ewan Howell",
+  "textureSize": [64, 64],
+  "models": [
+    {
+      "part": "head",
+      "id": "head",
+      "invertAxis": "xy",
+      "translate": [0, -10, 0],
+      "boxes": [
+        {"coordinates": [-4, 10, -5, 8, 5, 10], "textureOffset": [0, 0]},
+        {"coordinates": [-4, 15, -5, 8, 1, 10], "textureOffset": [0, 0]},
+        {"coordinates": [-1, 8, -6, 2, 4, 2], "textureOffset": [56, 5]},
+        {"coordinates": [-1, 16, -1, 2, 4, 2], "textureOffset": [37, 8], "sizeAdd": -0.015},
+        {"coordinates": [-2, 20, -2, 4, 4, 4], "textureOffset": [37, 0], "sizeAdd": -0.015}
+      ]
+    },
+    {
+      "part": "body",
+      "id": "body",
+      "invertAxis": "xy",
+      "translate": [0, -4, 0],
+      "boxes": [
+        {"coordinates": [-4, 4, -3, 8, 6, 6], "textureOffset": [0, 15]}
+      ]
+    },
+    {
+      "part": "left_arm",
+      "id": "left_arm",
+      "invertAxis": "xy",
+      "translate": [4, -10, 0],
+      "submodels": [
+        {
+          "id": "left_arm_rotation",
+          "invertAxis": "xy",
+          "translate": [-3, 9, 0],
+          "rotate": [0, 0, -110],
+          "boxes": [
+            {
+              "coordinates": [-0.5, -5, -2, 2, 10, 4],
+              "uvNorth": [54, 20, 57, 30],
+              "uvEast": [50, 20, 54, 30],
+              "uvSouth": [61, 20, 64, 30],
+              "uvWest": [57, 20, 61, 30],
+              "uvUp": [57, 20, 54, 16],
+              "uvDown": [60, 16, 57, 20]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_arm",
+      "id": "right_arm",
+      "invertAxis": "xy",
+      "translate": [-4, -10, 0],
+      "submodels": [
+        {
+          "id": "right_arm_rotation",
+          "invertAxis": "xy",
+          "translate": [3, 9, 0],
+          "rotate": [0, 0, 110],
+          "boxes": [
+            {
+              "coordinates": [-1.5, -5, -2, 2, 10, 4],
+              "uvNorth": [40, 20, 43, 30],
+              "uvEast": [36, 20, 40, 30],
+              "uvSouth": [47, 20, 50, 30],
+              "uvWest": [43, 20, 47, 30],
+              "uvUp": [43, 20, 40, 16],
+              "uvDown": [46, 16, 43, 20]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": "left_leg",
+      "id": "left_leg",
+      "invertAxis": "xy",
+      "translate": [1, -4, 0],
+      "submodels": [
+        {
+          "id": "left_leg_rotation",
+          "invertAxis": "xy",
+          "translate": [-2.65, 2, 0],
+          "rotate": [0, 0, -15],
+          "boxes": [
+            {"coordinates": [-2, -1.5, -2, 4, 4, 4], "textureOffset": [16, 27]}
+          ]
+        }
+      ]
+    },
+    {
+      "part": "right_leg",
+      "id": "right_leg",
+      "invertAxis": "xy",
+      "translate": [-3, -4, 0],
+      "submodels": [
+        {
+          "id": "right_leg_rotation",
+          "invertAxis": "xy",
+          "translate": [2.65, 2, 0.01],
+          "rotate": [0, 0, 15],
+          "boxes": [
+            {"coordinates": [-2, -1.5, -2, 4, 4, 4], "textureOffset": [0, 27]}
+          ]
+        }
+      ]
+    }
+  ]
+}
