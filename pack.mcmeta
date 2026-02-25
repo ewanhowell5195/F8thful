@@ -1,1 +1,16 @@
-{"pack":{"description":"F8thful\n§cBy Ewan Howell","min_format":69,"max_format":69}}
+{
+  "pack": {
+    "description": "F8thful\n§cBy Ewan Howell",
+    "min_format": 69,
+    "max_format": 75
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "69",
+        "min_format": 69,
+        "max_format": 69
+      }
+    ]
+  }
+}
